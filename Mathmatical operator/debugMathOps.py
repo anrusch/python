@@ -25,13 +25,13 @@ range (biggest number - smallest number) (the biggest number is always the
 last item and the smallest number is the first item)
 
 '''
-    def calculations(list):
+ def calculations(list):
     print("The sum is:")
-    sum = list [0] + list[1] + list[2] + list[3] + list[4]
+    sum = list[0] + list[1] + list[2] + list[3] + list[4]
     print(sum)
     
     print("The average is:")
-    average = sum /5
+    average = sum / 5
     print(average) 
     
     print("The range is")
