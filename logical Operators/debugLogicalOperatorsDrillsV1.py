@@ -32,8 +32,8 @@ def checkWhoWins(choice):
     cpuChoice = random.randint(1,2,3)
     
     # This condition checks if there is a draw
-    if((choice == 'rock' and cpuChoice == 1) and (choice == 'scissors' and cpuChoice == 2)
-       and  (choice == 'paper' and cpuChoice == 3)):
+    if((choice == 'rock' and cpuChoice == 1) or (choice == 'scissors' and cpuChoice == 2)
+    or  (choice == 'paper' and cpuChoice == 3)):
         print("DRAW!")
     
     # This condition checks if the human wins
