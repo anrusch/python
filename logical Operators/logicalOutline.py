@@ -14,11 +14,13 @@ print(a)
 
 #1) Make two boolean variables. Put them on either side of the and operator.
 #Store this expression in a variable named a. Print the variable.
-w = 4
-z = 5
-a = w==w and z==z
+jacob == "loves pizza"
+brynn == "loves pizza"
+a = jacob == brynn
 print(a)
 
+'''
+# examples
 h=4
 g=5
 a= h==h and g==g
@@ -26,7 +28,7 @@ print (a)
 #true      #true
 '''4 == 4 and 5 == 5'''
 #true
-
+'''
 
 # more examples 
 #false     #true
@@ -41,7 +43,9 @@ print (boolean)'''
 #2) Make two boolean variables. Put them on either side of the or operator.
 #Store this expression in a variable named b. Print the variable.
 #false    #true
-'''2 == 4 or 2 == 5'''
+'''
+more examples
+2 == 4 or 2 == 5
 #true
 d = 2
 j = 2
@@ -57,17 +61,25 @@ b= t==t or h==u
 print (b)
 #more examples
 ''''2 < 3 or 5 < 10
+
 #true
 
 4 < 3 or 5 < 10
 #true
 
 4 < 3 or 3 < 2
-#false'''
+#false
+
+user == "arusch"
+password == "123Ar"
+b = (user =="arusch") or (password == "123Ar")
+#true                  #true
+print (b)
 #3) Make one boolean variable. Put the variable after the not. Store this 
 #expression in a variable named c. Print the variable.
-g=3
-c= not g==g
+pineapple == "oranges"
+apples == "oranges"
+c= not pineapple == pears
 print (c)
  
 '''
