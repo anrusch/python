@@ -21,17 +21,17 @@ else:
 #number". Elif a is between 100 and -100, print "a is not a three digit number".
 
 a = 12
-if (a >= 100) or (a <= -100):
+if ((a >= 100) or (a <= -100)):
     print ("a is three digit number")
-elif ("a is between 100 and -100"):
+elif ((a == "between 100") and (-100)):
     print ("a is not a three digit number")
 
 #3)Create a variable called age. Make an if/else statement. If age is older
 #than 18, print "You can vote". Else, print "You cannot vote".
 
 age = 16
-if (age < 18):
-    print ("you can vote")
+if(age < 18):
+        print ("you can vote")
 else:
     print ("you cannot vote")
 
