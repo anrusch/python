@@ -113,5 +113,5 @@ else:
     
 #Calculate the percentage the user got. And store it in a variable called p
 p = score
-score =
+score = total correct/4 
 #Print out the users score: "You got a [score]/4. Or a [p]%."
